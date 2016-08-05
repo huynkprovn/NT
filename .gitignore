@@ -1,0 +1,7 @@
+.idea/
+.settings/
+.DS_Store
+bin/
+out/
+logs/
+src/vhtcms.properties
