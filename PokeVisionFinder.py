@@ -313,7 +313,7 @@ def _finderSkipLagged(city):
                     if _combo not in _pokemonslisted:
                         _pokemonslisted.append(_combo)
                         _printer(_name, _lat, _lng, _exp)
-                        if ps_use: webbrowser.open_new("pokesniper2://"+_name+"/"+str(_lat)+","+_str(lng))
+                        if ps_use: webbrowser.open_new("pokesniper2://"+_name+"/"+str(_lat)+","+ str(_lng))
                     else:
                         print "[INFO] Pokemon already listed found."
         except KeyError, e:
